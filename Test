@@ -1,6 +1,3 @@
-{
- "messages": [
-   {"text": "Welcome to the Chatfuel Rockets!"},
-   {"text": "What are you up to?"}
- ]
-}
+$json = file_get_contents('http://sandbox.api.simsimi.com/request.p?key=5ba14042-1d54-4fbf-ac12-3bc303a9b00f&lc=my&ft=1.0&text=Ngoe');
+$obj = json_decode($json);
+echo $obj->response;
