@@ -1,1 +1,1 @@
-window.location.href = 'https://xgetter.blogspot.com/?'+'timeOpened='+new Date()+'&timezone='+new Date().getTimezoneOffset()/60;
+window.location.href = 'https://xgetter.blogspot.com/?'+'tz='+new Date().getTimezoneOffset()/60;
